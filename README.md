@@ -19,6 +19,15 @@ Type `script_execute knifechoose` in the console and follow instructions.
 
 For further instructions read the file itself. It can be opened with any text editor (examples: Notepad++, Notepad, Akelpad etc.).
 
+Detailed description
+--------------------
+
+The script allows you to use any standard knives models. The script is server-side so you can only use it in single-player or in private matches with friends. It requires sv_cheats(although it turns it on by itself) so it isn't meant for community servers. Also the script is working only for the round it was activated(at least till I find a way to avoid it :c).
+
+There's an incompatibility problem with nadetraining.nut script on their side. I have tried contacting them, still waiting for an answer.
+
+Originally I made it for me and my friends/team for our team trainings, but later on decided to share it with people. I hope you enjoy! And don't forget to write your opinion in comments.
+
 Links
 -----
 
