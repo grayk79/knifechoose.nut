@@ -6,12 +6,13 @@
  * goes into /csgo/scripts/vscripts/knifechoose.nut
  *
  * USAGE, in console:
- *  script_execute knifechoose
+ *  	script_execute knifechoose
  *	script knifeSetup()
- * 	m9, flip, bayonet, butterfly, falchion, gut, huntsman, karambit, daggers, bowie
  * Write the knife's name in your console
+ * 	 kc_<m9, flip, bayonet, butterfly, falchion, gut, huntsman, karambit, daggers, bowie>
+ * Done!
  * More features and optimization will be included in future updates! Stay turned!
- * Also the butterfly knife very buggy, even unusable, but there's nothing I can do about it, at least yet.
+ * Also the butterfly knife's very buggy, even unusable, but there's nothing I can do about it, at least yet.
  */
 
 v_butterfly		<- false;
