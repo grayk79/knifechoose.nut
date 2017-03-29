@@ -25,7 +25,7 @@ You dont know which Keys I am talking about? I mean these above your arrowkeys:
 This Fork
 -----------------
 
-In this fork I plan to add some features like an little menu, and an AutoBind feature that makes it more convenient to give you the knife at every round start. It's most likely wont change core features or fix major bugs unless they are easy to implement but rather adds some Workarounds, remove clutter and add convenience.
+In this fork I plan to add some features like an little menu, and an AutoBind feature that makes it more convenient to give you the knife at every round start. It most likely wont change core features or fix major bugs unless they are easy to implement but rather adds some workarounds, remove clutter and add **convenience**.
 
 Things I already did:
 
