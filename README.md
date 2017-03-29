@@ -3,7 +3,7 @@ kc.nut
 
 VScript to use all Knife models on a local server. 
 
-Original Script from [https://github.com/serkas001/knifechoose.nut](Serkas001)
+Original Script from https://github.com/serkas001/knifechoose.nut
 
 
 Installation and Usage
