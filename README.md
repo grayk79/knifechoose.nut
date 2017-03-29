@@ -36,7 +36,7 @@ and the knifename again. I suggest binding that to a key. (I will make bind feat
 This Fork
 -----------------
 
-In this fork I plan to add some features like an little menu, and an AutoBind feature that makes it more convinient to give you the knife at every round start. It's most likely wont change core features or fix major bugs unless they are easy to implement but rather adds some Workarounds, remove clutter and add convinience.
+In this fork I plan to add some features like an little menu, and an AutoBind feature that makes it more convenient to give you the knife at every round start. It's most likely wont change core features or fix major bugs unless they are easy to implement but rather adds some Workarounds, remove clutter and add convenience.
 
 Things I already did:
 
