@@ -12,26 +12,15 @@ Installation and Usage
 The kc.nut needs to be placed in `[your CSGO directory]/csgo/scripts/vscripts`
     
 To run it ingame start a local server (for example 'Offline with Bots') and write `script_execute kc`
+in your console. Then you can:
 
-in your console. Then you need to write
+* Press INS on your keyboard to choose a Knife
+* Press DEL on your keyboard to equip the chosen Knife
+* Press END at every Roundstart to actually load the Script again. (It resets every Round)
 
-    script knifeSetup()
+You dont know which Keys I am talking about? I mena these:
 
-(it will also tell you that in the console). Then you can choose your knife with writing 
-
-    kc_[knifename]
-
-in your console. For example:
-
-    kc_karambit
-
-When a new round starts the Knifes get resetted so you need to write  
-    
-    script knifeSetup()
-    
-and the knifename again. I suggest binding that to a key. (I will make bind feature and an ingame menu in the future). To do so write:
-    
-     bind "[key]" "script knifeSetup(); kc_[knifename]"
+![Keys](http://i.imgur.com/80HBEjD.png)
     
 This Fork
 -----------------
@@ -41,5 +30,9 @@ In this fork I plan to add some features like an little menu, and an AutoBind fe
 Things I already did:
 
 * Removed sv_cheats 1 as its not needed anymore
+* Removed some Functions I didnt need
+* Added a system that allows the Script to be controlled with Keys instead of the console
+* Auto Setup of the Script for the First Round
+
     
     
