@@ -1,29 +1,38 @@
-knifechoose.nut
-===============
+kc.nut
+---------------
+---------------
 
-First person knife model CSGO server-side script.
+VScript to use all Knife models on a local server. 
 
-Installation
-------------
+Original Script from [https://github.com/serkas001/knifechoose.nut](Serkas001)
 
-Copy the `knifechoose.nut` into your `<csgo_directory>\csgo\scripts\vscripts` folder.
 
-On Windows this is usually:
+Installation and Usage
+---------------
 
-    C:\Program Files (x86)\Steam\SteamApps\common\Counter-Strike: Global Offensive\csgo\scripts\vscripts
+The kc.nut needs to be placed in
+    [your CSGO directory]/csgo/scripts/vscripts
+    
+To run it ingame start a local server (for example 'Offline with Bots') and write 
+    script_execute kc
+in your console. Then you need to write 
+    script knifeSetup()
+(it will also tell you that in the console). Then you can choose your knife with writing 
+    kc_[knifename]
+in your console. For example:
+    kc_karambit
+When a new round starts the Knifes get resetted so you need to write  
+    script knifeSetup()
+and the knifename again. I suggest binding that to a key. (I will make bind feature and an ingame menu in the future). To do so write:
+    bind "[key]" "script knifeSetup(); kc_[knifename]"
+    
+This Fork
+-----------------
 
-Usage
------
+In this fork I plan to add some features like an little menu, and an AutoBind feature that makes it more convinient to give you the knife at every round start. It's most likely wont change core features or fix major bugs unless they are easy to implement but rather adds some Workarounds, remove clutter and add convinience.
 
-Type `script_execute knifechoose` in the console and follow instructions.
+Things I already did:
 
-For further instructions read the file itself. It can be opened with any text editor (examples: Notepad++, Notepad, Akelpad etc.).
-
-Also don't be afraid to use [Issues Section](https://github.com/serkas001/knifechoose.nut/issues) to give me suggestions or point out bugs.
-
-Detailed description
---------------------
-
-The script allows you to use any standard knives models. The script is server-side so you can only use it in single-player or in private matches with friends. Also the script is working only for the round it was activated (at least till I find a way to avoid it :c).
-
-Originally I made it for me and my friends/team for our team trainings, but later on decided to share it with people. I hope you enjoy! And don't forget to write your opinion in comments.
+* Removed sv_cheats 1 as its not needed anymore
+    
+    
