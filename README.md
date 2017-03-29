@@ -3,8 +3,6 @@ knifechoose.nut
 
 First person knife model CSGO server-side script.
 
-[Downloads](https://github.com/serkas001/knifechoose.nut/releases)
-
 Installation
 ------------
 
@@ -26,18 +24,6 @@ Also don't be afraid to use [Issues Section](https://github.com/serkas001/knifec
 Detailed description
 --------------------
 
-The script allows you to use any standard knives models. The script is server-side so you can only use it in single-player or in private matches with friends. It requires sv_cheats(although it turns it on by itself) so it isn't meant for community servers. Also the script is working only for the round it was activated(at least till I find a way to avoid it :c).
+The script allows you to use any standard knives models. The script is server-side so you can only use it in single-player or in private matches with friends. Also the script is working only for the round it was activated (at least till I find a way to avoid it :c).
 
 Originally I made it for me and my friends/team for our team trainings, but later on decided to share it with people. I hope you enjoy! And don't forget to write your opinion in comments.
-
-Links
------
-
-[Gamebanana](http://gamebanana.com/gamefiles/4107)
-
-Video
------
-
-<<a href="http://www.youtube.com/watch?feature=player_embedded&v=iy13ZF4DDP4
-" target="_blank"><img src="http://img.youtube.com/vi/iy13ZF4DDP4/0.jpg" 
-alt="Example of using Knife Chooser Script 2.0 "Automation Update!" " width="240" height="180" border="10" /></a>
