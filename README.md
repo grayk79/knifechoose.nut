@@ -18,7 +18,7 @@ in your console. Then you can:
 * Press DEL on your keyboard to equip the chosen Knife
 * Press END at every Roundstart to actually load the Script again. (It resets every Round)
 
-You dont know which Keys I am talking about? I mena these:
+You dont know which Keys I am talking about? I mean these:
 
 ![Keys](http://i.imgur.com/80HBEjD.png)
     
