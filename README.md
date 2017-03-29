@@ -14,11 +14,11 @@ The kc.nut needs to be placed in `[your CSGO directory]/csgo/scripts/vscripts`
 To run it ingame start a local server (for example 'Offline with Bots') and write `script_execute kc`
 in your console. Then you can:
 
-* Press INS on your keyboard to choose a Knife
-* Press DEL on your keyboard to equip the chosen Knife
-* Press END at every Roundstart to actually load the Script again. (It resets every Round)
+* Press INS (or Insert) on your keyboard to choose a Knife
+* Press DEL (or Delete) on your keyboard to equip the chosen Knife
+* Press END (or End) at every Roundstart to actually load the Script again. (It resets every Round)
 
-You dont know which Keys I am talking about? I mean these:
+You dont know which Keys I am talking about? I mean these above your arrowkeys:
 
 ![Keys](http://i.imgur.com/80HBEjD.png)
     
