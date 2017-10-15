@@ -1,4 +1,4 @@
-/* knifechoose.nut v2.4
+/* knifechoose.nut v2.4.1
  * Firstperson Knife Model Changer
  * by Gray and p410n3
  * github: https://github.com/serkas001/knifechoose.nut/
@@ -24,7 +24,7 @@
  */
 
 //Current script's version. Used in messages, so it is not hard-coded.
-const kc_version = "v2.4";
+const kc_version = "v2.4.1";
 
 enum Knife
 {
@@ -116,7 +116,7 @@ function knifeDebug()
 //Goes through the list of knives(-butterfly cause of bugginess) one-by-one(auto-binded to 'ins')
 function knifeSelectNext()
 {
-	knifeSet(++kc_current_knife == Knife.butterfly ? kc_current_knife = Knife.standard:kc_current_knife);
+	knifeSet(++kc_current_knife == Knife.butterfly ? Knife.standard:kc_current_knife);
 		//Adds 1 to kc_current_knife thus changing the knife to the next one
 		//If the next knife == Knife.butterfly (10) then set it to Knife.standard (0)
 		//Note: if butterfly wasn't so buggy, we could just use knifeSet(++kc_current_knife),
@@ -126,7 +126,7 @@ function knifeSelectNext()
 //Goes through the list of knives(-butterfly cause of bugginess) backwards one-by-one(auto-binded to 'del')
 function knifeSelectPrev()
 {
-	knifeSet(--kc_current_knife < Knife.standard ? kc_current_knife = Knife.bowie:kc_current_knife);
+	knifeSet(--kc_current_knife < Knife.standard ? Knife.bowie:kc_current_knife);
 		//Substacts 1 from kc_current_knife thus changing the knife to the previous one
 		//If the previous knife < Knife.standard (0) then set it to Knife.bowie (9)
 		//	thus skipping out butterfly
